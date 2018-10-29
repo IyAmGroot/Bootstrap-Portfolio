@@ -45,7 +45,7 @@ h1 {
   margin-bottom: 0;
   border: none;
 }
-.left {
+/* .left {
   position: relative;
 
   width: 200px;
@@ -53,6 +53,10 @@ h1 {
   padding: 10px;
   background-color: #fff;
   margin-bottom: 20px;
+} */
+.pictureDiv {
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 .imgText {
@@ -63,4 +67,13 @@ h1 {
   color: #fff;
 
   text-align: center;
+}
+.spacer {
+  height: 80px;
+  width: 100%;
+}
+footer {
+  border-top: 5px solid #4aaaa5;
+  text-align: center;
+  background-color: #666666;
 }

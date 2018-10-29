@@ -1,0 +1,66 @@
+.myheader {
+  font-family: "Georgia", Times, Times New Roman, serif;
+  background-color: #ffffff;
+  border-bottom-color: #cccccc;
+  margin: 0 auto;
+  width: 960px;
+}
+.myTeal {
+  background-color: #4aaaa5;
+  color: #fff;
+}
+.icon-bar {
+  color: #777777;
+}
+body {
+  background-image: url(../images/old_moon.png);
+}
+.bg-navbar {
+  background-color: #fff;
+  font-family: "Georgia", Times, Times New Roman, serif;
+
+  border-bottom-color: #cccccc;
+  margin: 0 auto;
+}
+.selected {
+  background-color: #000;
+  color: #fff;
+}
+.myPic {
+  width: 200px;
+}
+.myContainer {
+  background-color: #fff;
+  font-family: "Arial", "Hlevetica Neue", Helvetica, sans-serif;
+  color: #777777;
+  margin-top: 20px;
+}
+h1 {
+  font-family: "Georgia", Times, Times New Roman, serif;
+  color: #4aaaa5;
+}
+
+.thumbnail {
+  margin-right: 20px;
+  margin-bottom: 0;
+  border: none;
+}
+.left {
+  position: relative;
+
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.imgText {
+  position: absolute;
+  top: 140px;
+  width: 200px;
+  background-color: #4aaaa5;
+  color: #fff;
+
+  text-align: center;
+}

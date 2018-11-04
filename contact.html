@@ -14,36 +14,38 @@
 
 <body>
 
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-light bg-navbar ">
+                <div class="col-md-2"></div>
+                <div class="container-fluid col-md-8 col-sm-12 col-xs-12">
+                    <div class="navbar-header">
+                        <button type="button " class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar myTeal"></span>
+                            <span class="icon-bar myTeal"></span>
+                            <span class="icon-bar myTeal"></span>
+                        </button>
+                        <a class="navbar-brand myTeal " href="#">Eric Finney</a>
+                    </div>
+                    <div class="collapse navbar-collapse " id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right bd-highlight">
+                            <li class="nav-item selected">
+                                <a class="selected" href="index.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
 
-    <nav class="navbar navbar-light bg-navbar ">
-        <div class="col-md-2"></div>
-        <div class="container-fluid col-md-8">
-            <div class="navbar-header">
-                <button type="button " class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar myTeal"></span>
-                    <span class="icon-bar myTeal"></span>
-                    <span class="icon-bar myTeal"></span>
-                </button>
-                <a class="navbar-brand myTeal " href="#">Eric Finney</a>
-            </div>
-            <div class="collapse navbar-collapse " id="myNavbar">
-                <ul class="nav navbar-nav navbar-right bd-highlight">
-                    <li>
-                        <a href="index.html">About</a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="selected" href="contact.html">Contact</a>
-                    </li>
-
-                </ul>
-            </div>
-
+                </div>
+                <div class="col-md-2"></div>
+            </nav>
         </div>
-        <div class="col-md-2"></div>
-    </nav>
+    </div>
 
     <div class="container myContainer">
         <div class="row">
@@ -73,7 +75,7 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                     </div>
                 </form>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button id="mySubmit" type="submit" class="btn btn-primary">Submit</button>
             </div>
             <div class="col-md-1">
 
@@ -83,9 +85,9 @@
 
     </div>
 
-    <div class="spacer"></div>
+
     <footer class="footer">
-        <div class="container">
+        <div class="container-fluid">
             <span class="text-muted">
                 <h4>Copyright &copy;</h4>
             </span>

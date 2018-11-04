@@ -1,17 +1,5 @@
-.myheader {
-  font-family: "Georgia", Times, Times New Roman, serif;
-  background-color: #ffffff;
-  border-bottom-color: #cccccc;
-  margin: 0 auto;
-  width: 960px;
-}
-.myTeal {
-  background-color: #4aaaa5;
-  color: #fff;
-}
-.icon-bar {
-  color: #777777;
-}
+/*********************Settings for all pages*********************/
+
 body {
   background-image: url(../images/old_moon.png);
 }
@@ -22,38 +10,55 @@ body {
   border-bottom-color: #cccccc;
   margin: 0 auto;
 }
-.selected {
-  background-color: #000;
+.myTeal {
+  background-color: #4aaaa5;
   color: #fff;
 }
-.myPic {
-  width: 200px;
-}
 .myContainer {
-  background-color: #fff;
   font-family: "Arial", "Hlevetica Neue", Helvetica, sans-serif;
   color: #777777;
-  margin-top: 20px;
 }
 h1 {
   font-family: "Georgia", Times, Times New Roman, serif;
   color: #4aaaa5;
 }
-
-.thumbnail {
-  margin-right: 20px;
-  margin-bottom: 0;
-  border: none;
-}
-/* .left {
-  position: relative;
-
-  width: 200px;
-  height: 200px;
-  padding: 10px;
+.container {
   background-color: #fff;
-  margin-bottom: 20px;
-} */
+  margin-top: 20px;
+  width: 66%;
+  margin-bottom: 60px;
+}
+footer {
+  border-top: 5px solid #4aaaa5;
+  text-align: center;
+  background-color: #666666;
+  float: clear;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+}
+/**********Profile Page **********************/
+.myProfilePic {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  /* position: relative; */
+  border: unset;
+}
+.myProfileText {
+  margin-left: 10px;
+}
+.thumbnail {
+  border: unset;
+}
+.profileRow {
+  display: inline-block;
+}
+.profileRow p {
+  margin-left: 20px;
+}
+/********Portfolio Page ****************/
 .pictureDiv {
   margin-bottom: 10px;
   margin-right: 10px;
@@ -68,17 +73,27 @@ h1 {
 
   text-align: center;
 }
-.spacer {
-  height: 80px;
-  width: 100%;
+
+/**********Contact Page ****************/
+#mySubmit {
+  background-color: #4aaaa5;
+  margin-bottom: 20px;
 }
-footer {
-  border-top: 5px solid #4aaaa5;
-  text-align: center;
-  background-color: #666666;
-  float: clear;
-  bottom: 0;
-  position: fixed;
-  width: 100%;
-  height: 40px;
+
+/*********MQ************/
+@media screen and (max-width: 640px) {
+  header {
+    width: 100%;
+    text-align: center;
+  }
+  .container {
+    width: 100%;
+  }
+
+  .myProfliePic {
+    /* float: none; */
+    width: 100%;
+    margin: 20px;
+    align-content: center;
+  }
 }
